@@ -1,0 +1,20 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "FHIR": true
+    },
+    "overrides": [
+        {
+            "files": [
+                "src/**/*.test.js",
+                "src/**/*.test.jsx"
+            ],
+            "env": {
+                "jest": true
+            }
+        }
+    ]
+}
